@@ -1,7 +1,24 @@
-#customerreviews{
-  background-image:url(Background.png);
-  background-repeat:no-repeat;
-  background-size:cover;
-  width:100%;
-  height:auto;
+
+.customerreviews {
+  width: 100%;
+  height: 300px; 
+  background-image: url("https://www.canva.com/design/DAG5sozCAYI/oaEsgxbCOUj_w4FwGGO6cQ/edit?utm_content=DAG5sozCAYI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton");
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+  border-radius: 10px;
+}
+
+
+.customerreveiws {
+  position: absolute;
+  bottom: 20px;   
+  left: 20px;     
+  color: black; 
+  font-family: Arial, sans-serif;
+  max-width: 70%;
+}
+.content h2,
+.content p {
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
 }
