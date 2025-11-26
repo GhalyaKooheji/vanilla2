@@ -1,12 +1,16 @@
 
 .customerreviews {
   width: 100%;
-  height: 300px; 
+  height: 100vh; 
   background-image: url("https://ibb.co/8nwVXBd8");
   background-size:cover;
   background-position:center;
   position: relative; 
   border-radius: 10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
 }
 
 
@@ -19,19 +23,9 @@
   max-width: 100%;
 }
 .content h2,
-.content p {
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+.content p { max-width:600px;;
 }
-.customerreviews {
-  width: 100%;
-  height: 100;
-  background-image: url("https://ibb.co/8nwVXBd8");
-  background-size: cover;       
-  background-position: center;  
-  background-repeat: no-repeat; 
-  position: relative;
-  display:flex;
-}
+
 img{height:1000px;
 width:300%;
 object-fit: cover;
@@ -50,9 +44,9 @@ body{
 }
 
 #loyaltycard{
-  width:300px;
+  width:200px;
   height:auto;
-  dispaly:block;
+  margin-top:20px;
   
   
 }
