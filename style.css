@@ -50,8 +50,7 @@ body{
 #loyaltycard{
   display: block;
   margin: 40px auto;
-  width: 70%;
-  max-width: 600px;
+  width: 150%;
   border-radius: 10px;}
 
 .footer {
